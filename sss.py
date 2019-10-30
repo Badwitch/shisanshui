@@ -1,6 +1,5 @@
 import requests
 import json
-import http
 class node:
     flower=0
     num=0
@@ -45,8 +44,8 @@ for i in range(0,4+1):
 global cnt,r1,r2,r3,end_ans,score # 计数器
 cnt,r1,r2,r3=0,5,5,3
 end_ans ,score= 0.0,0.0
-global e1, e2, e3
-global a1, a2, a3
+e1, e2, e3=0,0,0
+a1, a2, a3=0,0,0
 global token,id,use
 
 hua,number={},{}
@@ -337,7 +336,7 @@ def third():
     return  k
 
 
-def tempof() :
+def tempof1() :
     for i in range(1,4): #前墩
         ans_3[i] = temp_3[i]
     for i in range(1,6): #中墩
