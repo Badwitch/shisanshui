@@ -41,12 +41,12 @@ for i in range(0,4+1):
 for i in range(0,4+1):
     tempp3.append(node(0,0))
 
-global cnt,r1,r2,r3,end_ans,score # 计数器
+cnt,r1,r2,r3,end_ans,score=0,0,0,0,0,0 # 计数器
 cnt,r1,r2,r3=0,5,5,3
 end_ans ,score= 0.0,0.0
 e1, e2, e3=0,0,0
 a1, a2, a3=0,0,0
-global token,id,use
+token,id,use=[],[],[]
 
 hua,number={},{}
 for i in range(0,15+1):
