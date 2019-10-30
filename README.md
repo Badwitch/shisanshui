@@ -1,8 +1,8 @@
-·徽章  使用的语言是python
+·徽章  ![](https://img.shields.io/badge/language-python-green)
 
 ·代码质量评分及徽章  ？
 
-·运行环境 windows
+·运行环境 windows;python版本：3.7以上
 
 ·编译方法 python
 
