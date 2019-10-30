@@ -1,4 +1,5 @@
-·徽章  ![](https://img.shields.io/badge/language-python-green)
+·徽章
+![](https://img.shields.io/badge/language-python-green)
 
 ·代码质量评分及徽章  ？
 
