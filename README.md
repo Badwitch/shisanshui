@@ -1,7 +1,8 @@
 ·徽章
 ![](https://img.shields.io/badge/language-python-green.svg)
 
-·代码质量评分及徽章  ？
+·代码质量评分及徽章
+![]https://img.shields.io/badge/codequality-A-yellowgreen
 
 ·运行环境 windows;python版本：3.7以上
 
