@@ -46,7 +46,7 @@ cnt,r1,r2,r3=0,5,5,3
 end_ans ,score= 0.0,0.0
 e1, e2, e3=0,0,0
 a1, a2, a3=0,0,0
-token,id,use=[],[],[]
+token,user_id,use={},{},{}
 
 hua,number={},{}
 for i in range(0,15+1):
@@ -503,7 +503,7 @@ def historicalRecords(limit, page):
     global user_id, token
     url = 'http://api.revth.com/history'
     headers = {'X-Auth-Token': token}
-    params = {'player_id': user_id, 'limit': limit, 'page': page}
+    params = {'player_id':user_id, 'limit': limit, 'page': page}
     response = requests.get(url, params=params, headers=headers)
     print(response.text)
 
@@ -520,7 +520,7 @@ def historicalRecordsDetail(id):
 
 def opengame():
     global token
-    global id
+    global userid
     url = "http://api.revth.com/game/open"
     headers = {"X-Auth-Token": token}
     response = requests.post(url, headers=headers)
