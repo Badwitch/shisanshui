@@ -520,7 +520,7 @@ def historicalRecordsDetail(id):
 
 def opengame():
     global token
-    global userid
+    global id
     url = "http://api.revth.com/game/open"
     headers = {"X-Auth-Token": token}
     response = requests.post(url, headers=headers)
